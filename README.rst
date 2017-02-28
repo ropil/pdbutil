@@ -14,3 +14,10 @@ Usage examples
 Extracting a distance matrix, consider only CA atoms;
 
    pdbutil_remove_atoms -keep CA <pdbfile> | pdbutil_distances
+
+Test installation
+-----------------
+
+Install this package under a local user
+
+   pip install --user -e .
