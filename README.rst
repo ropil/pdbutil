@@ -20,4 +20,7 @@ Test installation
 
 Install this package under a local user
 
+   # Install editable under local user
    pip install --user -e .
+   # Export ~/.local into PATH, if not there already
+   export PATH=${HOME}/.local/bin:${PATH}
